@@ -1,0 +1,341 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo per consultare i consumi mensili degli edifici pubblici, confrontare gli andamenti e registrare nuove rilevazioni. Dati e organizzazioni di fantasia.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Quadro energetico",
+      "description": "Panoramica dei consumi rilevati e confronto mensile tra edifici.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18.460 kWh"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−6,2%"
+        },
+        {
+          "label": "Rilevazioni registrate",
+          "value": "24"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Edificio",
+        "Organizzazione",
+        "Consumo (kWh)"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "22.180"
+        ],
+        [
+          "Febbraio",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "20.940"
+        ],
+        [
+          "Marzo",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "19.870"
+        ],
+        [
+          "Aprile",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "18.460"
+        ],
+        [
+          "Gennaio",
+          "Centro Nubi",
+          "Rete Brina",
+          "13.220"
+        ],
+        [
+          "Febbraio",
+          "Centro Nubi",
+          "Rete Brina",
+          "12.810"
+        ],
+        [
+          "Marzo",
+          "Centro Nubi",
+          "Rete Brina",
+          "12.360"
+        ],
+        [
+          "Aprile",
+          "Centro Nubi",
+          "Rete Brina",
+          "11.940"
+        ],
+        [
+          "Gennaio",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "8.740"
+        ],
+        [
+          "Febbraio",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "8.310"
+        ],
+        [
+          "Marzo",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "7.980"
+        ],
+        [
+          "Aprile",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "7.620"
+        ],
+        [
+          "Gennaio",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "16.400"
+        ],
+        [
+          "Febbraio",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "15.980"
+        ],
+        [
+          "Marzo",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "15.210"
+        ],
+        [
+          "Aprile",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "14.870"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni mensili",
+      "description": "Tabella filtrabile per mese, edificio e organizzazione; le righe mostrano i consumi registrati.",
+      "metrics": [
+        {
+          "label": "Totale rilevato",
+          "value": "18.460 kWh"
+        },
+        {
+          "label": "Media per edificio",
+          "value": "4.615 kWh"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Edificio",
+        "Organizzazione",
+        "Consumo (kWh)",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Aprile",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "18.460",
+          "Confermato"
+        ],
+        [
+          "Aprile",
+          "Centro Nubi",
+          "Rete Brina",
+          "11.940",
+          "Confermato"
+        ],
+        [
+          "Aprile",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "7.620",
+          "In verifica"
+        ],
+        [
+          "Aprile",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "14.870",
+          "Confermato"
+        ],
+        [
+          "Marzo",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "19.870",
+          "Confermato"
+        ],
+        [
+          "Marzo",
+          "Centro Nubi",
+          "Rete Brina",
+          "12.360",
+          "Confermato"
+        ],
+        [
+          "Marzo",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "7.980",
+          "Confermato"
+        ],
+        [
+          "Marzo",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "15.210",
+          "Confermato"
+        ],
+        [
+          "Febbraio",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "20.940",
+          "Confermato"
+        ],
+        [
+          "Febbraio",
+          "Centro Nubi",
+          "Rete Brina",
+          "12.810",
+          "Confermato"
+        ],
+        [
+          "Febbraio",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "8.310",
+          "Confermato"
+        ],
+        [
+          "Febbraio",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "15.980",
+          "In verifica"
+        ],
+        [
+          "Gennaio",
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "22.180",
+          "Confermato"
+        ],
+        [
+          "Gennaio",
+          "Centro Nubi",
+          "Rete Brina",
+          "13.220",
+          "Confermato"
+        ],
+        [
+          "Gennaio",
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "8.740",
+          "Confermato"
+        ],
+        [
+          "Gennaio",
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "16.400",
+          "Confermato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici monitorati",
+      "description": "Elenco filtrabile degli edifici inclusi nel monitoraggio dei consumi.",
+      "metrics": [
+        {
+          "label": "Edifici attivi",
+          "value": "4"
+        },
+        {
+          "label": "Organizzazioni coinvolte",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Uso prevalente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Consorzio Vela",
+          "Uffici",
+          "Attivo"
+        ],
+        [
+          "Centro Nubi",
+          "Rete Brina",
+          "Servizi civici",
+          "Attivo"
+        ],
+        [
+          "Biblioteca Quarzo",
+          "Gruppo Mirto",
+          "Cultura",
+          "Attivo"
+        ],
+        [
+          "Officina Rame",
+          "Collettivo Sorgente",
+          "Manutenzione",
+          "Attivo"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-rilevazione",
+      "title": "Registra rilevazione",
+      "description": "Inserisci i dati mensili di consumo per un edificio monitorato.",
+      "metrics": [],
+      "columns": [
+        "Mese",
+        "Edificio",
+        "Organizzazione",
+        "Consumo (kWh)",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Mese",
+        "Edificio",
+        "Organizzazione",
+        "Consumo (kWh)",
+        "Stato"
+      ]
+    }
+  ]
+}
